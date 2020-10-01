@@ -8,7 +8,7 @@ class MainWindow(QMainWindow):
     def __init__(self, *args, **kwargs):
         super(MainWindow, self).__init__(*args, **kwargs)
         self.setGeometry(400, 200, 320, 180)
-        self.setWindowTitle("Screenshot")
+        self.setWindowTitle("Crapshot")
 
         self.label = None
         self.button = None
